@@ -1,0 +1,121 @@
+@import "../../../styles/variables";
+
+.myAddress {
+  padding: 40px;
+}
+.addressCardWrapper {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.name {
+  color: rgb(33, 43, 54);
+  font-weight: 500;
+  font-family: $poppins;
+  font-size: 18px;
+  margin-bottom: 10px;
+  span {
+    height: 24px;
+    min-width: 22px;
+    line-height: 0;
+    border-radius: 6px;
+    cursor: default;
+    align-items: center;
+    white-space: nowrap;
+    display: inline-flex;
+    justify-content: center;
+    text-transform: capitalize;
+    padding: 0px 8px;
+    color: rgb(0, 108, 156);
+    font-size: 0.75rem;
+    font-family: $redex;
+    background-color: rgba(0, 184, 217, 0.16);
+    font-weight: 700;
+    margin-left: 8px;
+  }
+}
+
+.wrapper {
+  max-width: 700px;
+}
+.addressCard {
+  background-color: rgba(255, 255, 255, 0.993);
+  color: rgb(33, 43, 54);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 16px;
+  padding: 18px 24px;
+  margin-bottom: 24px;
+  max-width: 300px;
+  button{
+    margin-top: 10px;
+    border: none;
+    border: 1px solid #eee;
+    padding: 5px 10px ;
+    border-radius: 2px;
+    cursor: pointer;
+    color: red;
+    background-color: transparent;
+    &:hover{
+        background-color: #fafafa;
+    }
+  }
+  address {
+    font-size: 15px;
+  }
+}
+
+.twoCol {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inputGroup {
+  margin-bottom: 10px;
+  label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Readex Pro", sans-serif;
+    color: #6e6e6e;
+  }
+  input {
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 8px 5px;
+    border-radius: 2px;
+
+    &:focus {
+      outline: none;
+      border: 1px solid #007db5;
+    }
+  }
+}
+
+.saveBtn {
+  font-size: 12px;
+  margin: 0;
+  line-height: 1;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  overflow: visible;
+  padding: 0.618em 1em;
+  font-weight: 700;
+  border-radius: 3px;
+  left: auto;
+  color: #515151;
+  background-color: #ebe9eb;
+  border: 0;
+  margin-top: 10px;
+  display: inline-block;
+  background-image: none;
+  box-shadow: none;
+  text-shadow: none;
+  &:hover {
+    color: #515151;
+    background-color: #dfdcde;
+  }
+}

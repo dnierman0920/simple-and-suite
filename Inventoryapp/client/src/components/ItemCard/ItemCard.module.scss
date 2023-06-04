@@ -1,0 +1,59 @@
+.itemCard {
+  border-radius: 5px;
+  transition: all ease .3s;
+  padding-bottom: 20px;
+  // max-width: 250px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  a {
+    text-decoration: none;
+    color: unset;
+    &:hover .itemImage {
+      transform: scale(2px);
+    }
+  }
+  &:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .imageHolder {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #F0F1F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .itemImage {
+      transition: all ease 0.3s;
+      width: 100%;
+    }
+  }
+  .contentHolder {
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px ;
+  
+    .title {
+      margin-bottom: 5px;
+      margin-top: 5px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .desc {
+      font-weight: 500;
+      margin-bottom: 12px;
+      font-size: 13px;
+      color: #4b4b4b;
+    }
+    .price {
+      position: absolute;
+      bottom: 0;
+      bottom: 10px;
+      align-self: flex-end;
+      font-weight: 600;
+      font-size: 18px;
+      color: rgb(235, 70, 70);
+    }
+  }
+}

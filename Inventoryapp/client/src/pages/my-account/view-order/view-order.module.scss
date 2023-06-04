@@ -1,0 +1,52 @@
+.viewOrder {
+  padding: 20px;
+  .wrapper {
+    background: #f9f9f9;
+    padding: 1rem 2rem 2rem;
+  }
+  .status {
+    font-size: 14px;
+    span {
+      background-color: #fff000;
+    }
+  }
+  h3 {
+    font-size: 28px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .orderDetails {
+    background-color: #f5f5f5;
+    .detailRow {
+      border-bottom: 2px solid #fff;
+      display: grid;
+      font-size: 13px;
+      grid-template-columns: 1fr 1fr;
+      .label {
+        padding: 10px 15px;
+        font-weight: 600;
+      }
+      .value {
+        padding: 10px 15px;
+      }
+    }
+  }
+  .shippingAddress {
+    margin-top: 80px;
+    h3 {
+      font-weight: 600;
+      font-size: 30px;
+    }
+    .addressHolder {
+      border: 1px solid #eee;
+      border-radius: 5px;
+      padding: 20px;
+      width: max-content;
+      address {
+        line-height: 1.6;
+        font-size: 13px;
+        max-width: 250px;
+      }
+    }
+  }
+}

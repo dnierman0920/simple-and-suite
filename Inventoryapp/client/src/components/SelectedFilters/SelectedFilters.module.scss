@@ -1,0 +1,37 @@
+.selectedFilters {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  .filter {
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #fff;
+    font-size: 14px;
+    p{
+        font-weight: 500;
+        color: #0063ff;
+        line-height: 1;
+    }
+    .closeIcon {
+      cursor: pointer;
+        border-radius: 50%;
+      display: grid;
+      place-items: center;
+      width: 20px;
+      height: 20px;
+      transition: all ease 0.2s;
+      &:hover {
+        background-color: #eee;
+      }
+    }
+    img {
+      width: 9px;
+    }
+  }
+}

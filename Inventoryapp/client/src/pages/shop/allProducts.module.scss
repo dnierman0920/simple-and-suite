@@ -1,0 +1,26 @@
+@import "../../styles/mixins.scss";
+
+.wrapper {
+  @include container;
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.productsGrid {
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 275px));
+  gap: 20px;
+}
+.pagination{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1170px;
+  margin: 0 auto;
+  &Holder{
+    margin: 15px 0;
+  }
+}
+

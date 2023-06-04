@@ -1,0 +1,77 @@
+.heroSection {
+  background-image: url("../../assets/images/UAHeroImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  @media (max-width: 768px) {
+    background-image: url("../../assets/images/heroImageSmallScreen.png");
+    background-position: right;
+    margin-bottom: 300px;
+  }
+  &__content {
+    margin-left: 40px;
+    max-width: 400px;
+    @media (max-width: 990px) {
+      max-width: 300px;
+    }
+    @media (max-width: 768px) {
+      padding-top: 15px;
+      margin-left: 0;
+      position: absolute;
+      bottom: 0;
+      top: 100%;
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      text-align: center;
+      a {
+        margin: 0 auto;
+      }
+    }
+    .subTitle {
+      font-size: 15px;
+      sup {
+        font-size: 10px;
+      }
+    }
+    h1 {
+      font-weight: 600;
+      font-size: 40px;
+      font-family: "Roboto", sans-serif;
+      @media (max-width: 768px) {
+        font-size: 35px;
+      }
+      sup {
+        font-weight: 600;
+        font-size: 18px;
+      }
+    }
+    small {
+      display: block;
+      margin-top: 15px;
+      font-weight: 500;
+    }
+    a {
+      display: block;
+      margin-top: 20px;
+      background: #010203;
+      color: #fff;
+      font-size: 12px;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      max-width: 200px;
+      transition: all ease 0.2s;
+      &:hover {
+        background: #010203ec;
+      }
+    }
+  }
+}

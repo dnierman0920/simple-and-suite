@@ -1,0 +1,116 @@
+@import '../../styles/variables';
+
+.login {
+  // min-height: 100vh;
+  padding: 100px 0;
+  display: grid;
+  place-items: center;
+  // grid-template-columns: 1fr 1fr;
+}
+
+.loginRight {
+  display: grid;
+  place-items: center;
+}
+.validationError{
+  margin: 0 auto;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+  color: #E2574C;
+  font-weight: 500;
+  line-height: 1;
+  font-family: $poppins;
+  img{
+    width: 14px;
+  }
+}
+.loginWrapper {
+  max-width: 450px;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .signupDescription {
+    font-size: 12.5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6e6e6e;
+  }
+  .inputHolder {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    label {
+      margin-bottom: 2px;
+      display: block;
+      font-size: 13px;
+      font-family: "Readex Pro", sans-serif;
+      color: #6e6e6e;
+    }
+    input {
+      background: whitesmoke;
+      border: 1px solidi;
+      width: 100%;
+      padding: 10px 5px;
+      border-radius: 4px;
+      border: 1px solid #eee;
+      &:focus {
+        outline: none;
+        border: 1px solid #007db5;
+      }
+    }
+    small {
+      font-size: 11px;
+      color: red;
+    }
+    img {
+      cursor: pointer;
+      width: 16px;
+      position: absolute;
+      top: 30px;
+      right: 10px;
+    }
+  }
+  .inputGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  button {
+    max-height: 40px;
+    padding: 12px 30px;
+    border-radius: 5rem;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Readex Pro", sans-serif;
+    color: #fff;
+    margin-top: 15px;
+    background-color: #000;
+    text-align: center;
+    transition: all 0.3s ease;
+    &:hover {
+      background: rgba(0, 0, 0, 0.884);
+    }
+  }
+  .newAccount {
+    font-size: 14px;
+    margin-top: 28px;
+    text-align: center;
+    & a {
+      color: blue;
+      text-decoration: none;
+    }
+  }
+}

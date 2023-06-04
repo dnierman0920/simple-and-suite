@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.099c7c77.css",
+    "main.js": "/static/js/main.5b3ef0d3.js",
+    "static/media/UAHeroImage.png": "/static/media/UAHeroImage.2a19876d1bfebba7e6f4.png",
+    "static/media/heroImageSmallScreen.png": "/static/media/heroImageSmallScreen.c0d231c74a42d705082e.png",
+    "static/media/categoryImageLaptop.png": "/static/media/categoryImageLaptop.292d6169ed9ca351ac7d.png",
+    "static/media/tabletCategory.png": "/static/media/tabletCategory.1b6426a829b19d470cb2.png",
+    "static/media/mens.png": "/static/media/mens.f05cf984bb3076868d68.png",
+    "static/media/woman.png": "/static/media/woman.213d62aa5bf4a3e97ae8.png",
+    "static/media/categoryWatch.png": "/static/media/categoryWatch.84cd2f988fe63a817362.png",
+    "static/media/phoneCategory.png": "/static/media/phoneCategory.febab560019282ac85e8.png",
+    "static/media/kids.png": "/static/media/kids.f837e54f739d5af8f14a.png",
+    "static/media/shoes.png": "/static/media/shoes.6c17f517010c44e54de2.png",
+    "static/media/order.svg": "/static/media/order.11d9079d66306b463f5f7a45d57bcc48.svg",
+    "static/media/Sign Up Image (2).png": "/static/media/Sign Up Image (2).5de038df16789995707e.png",
+    "static/media/BlackLogo.svg": "/static/media/BlackLogo.eba119aab6a5a9368d68db089cc50c56.svg",
+    "index.html": "/index.html",
+    "static/media/CartIcon.svg": "/static/media/CartIcon.970ae18c578601810ba02fd2f4456d0d.svg",
+    "static/media/NavMenuButton.svg": "/static/media/NavMenuButton.e4d97f6d96f93ceecea64ff3331ff0a1.svg",
+    "static/media/SearchIcon.svg": "/static/media/SearchIcon.b63cc19a196a4b2fcbd06cdf81778fc7.svg",
+    "main.099c7c77.css.map": "/static/css/main.099c7c77.css.map",
+    "main.5b3ef0d3.js.map": "/static/js/main.5b3ef0d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.099c7c77.css",
+    "static/js/main.5b3ef0d3.js"
+  ]
+}

@@ -1,0 +1,59 @@
+@import '../../styles/mixins.scss';
+
+.sliderWrapper{
+    @include container;
+    margin-top: 20px;
+    height:100%;
+    
+}
+.slider{
+    background-color: #dddddd00;
+    height:100%;
+}
+
+.slideHolder{
+    height: 100%;
+    width: 100%;
+    border-radius: 32px;
+    padding: 20px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.slideContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 20px;
+    h1{
+        font-family: 'Readex Pro', sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }   
+    a{
+        text-decoration: none;
+        color:#000;
+        font-size: 18px;
+        padding: 13px 50px;
+        border: 1px solid black;
+        border-radius: 32px;
+        width: max-content;    
+    }
+}
+.slideImage{
+    img{
+        vertical-align: middle;
+        object-fit: cover;
+        max-width: 100%;
+        display: inline-block;
+    }
+}
+.slideOne{
+    background-color: #dce5e2;
+}

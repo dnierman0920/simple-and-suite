@@ -1,0 +1,29 @@
+.billingAddress {
+  background-color: rgb(255, 255, 255);
+  color: rgb(33, 43, 54);
+  box-shadow: rgb(145 158 171 / 20%) 0px 0px 2px 0px,
+    rgb(145 158 171 / 12%) 0px 12px 24px -4px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  h3 {
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .name {
+    color: #212b36;
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .address {
+    margin-bottom: 8px;
+    color: #212b36;
+    font-size: 14px;
+  }
+  .contactNumber{
+    color: #637381;
+  }
+}

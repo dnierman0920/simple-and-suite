@@ -1,0 +1,68 @@
+@import "../../styles/mixins.scss";
+
+.emailSubSection {
+  background: #010203;
+  color: #fff;
+  padding: 20px 0;
+  margin: 40px 0;
+  .wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 25px 0;
+    text-align: center;
+
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      margin-bottom: 40px;
+    }
+    img {
+      width: 250px;
+    }
+    .inputBox {
+      border: 1px solid black;
+      width: max-content;
+      border-radius: 30px;
+      margin: 0 auto;
+      margin-top: 10px;
+      input {
+        width: 300px;
+        padding: 10px 20px;
+        border-radius: 2px;
+        border: none;
+        &:focus {
+          outline: none;
+          border: none;
+        }
+      }
+      button {
+        border: none;
+        outline: 1px solid #fff;
+        color: #fff;
+        padding: 9px 15px;
+        cursor: pointer;
+        height: 100%;
+        background: transparent;
+        transition: all ease 0.3s;
+        border-radius: 2px;
+        margin-left: 15px;
+        &:hover {
+          background-color: rgb(8, 8, 8);
+        }
+      }
+    }
+  }
+  @media (max-width:500px) {
+    .inputBox{
+      display: flex;
+      flex-direction: column;
+      button{
+        margin-left: 0px !important;
+        margin-top: 15px;
+      }
+    }
+  }
+}

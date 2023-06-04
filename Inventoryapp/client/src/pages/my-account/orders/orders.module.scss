@@ -1,0 +1,53 @@
+.orders {
+  padding: 20px;
+  &Holder {
+    padding: 20px;
+    background-color: #fff;
+  }
+  table {
+    text-align: left;
+    thead {
+      th {
+        border-bottom: 1px solid #eee;
+        border-right: 1px solid #eee;
+        font-size: 14px;
+        padding: 5px 10px;
+        min-width: 120px;
+        &:nth-child(5) {
+          border-right: none;
+        }
+      }
+    }
+    tbody {
+      td {
+        padding: 5px 10px;
+        font-size: 13px;
+        button {
+          font-size: 11px;
+          margin: 0;
+          line-height: 1;
+          margin-right: 10px;
+          cursor: pointer;
+          position: relative;
+          text-decoration: none;
+          overflow: visible;
+          padding: 0.618em 1em;
+          font-weight: 700;
+          border-radius: 3px;
+          left: auto;
+          color: #ab7c1f;
+          background-color: #ebe9eb;
+          border: 0;
+          display: inline-block;
+          background-image: none;
+          box-shadow: none;
+          text-shadow: none;
+          &:hover {
+            color: #515151;
+            background-color: #dfdcde;
+          }
+        }
+      }
+    }
+  }
+}

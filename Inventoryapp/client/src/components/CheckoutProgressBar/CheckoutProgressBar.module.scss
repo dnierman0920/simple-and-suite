@@ -1,0 +1,53 @@
+.stepProgress {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    .step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+       color: gray; 
+       font-weight: 600;
+      .dot {
+        border-radius: 50%;
+        width: 22px;
+        height: 22px;
+        position: relative;
+        font-size: 10px;
+        display: grid;
+        place-items: center;
+        color: rgba(112, 110, 110, 0.788);
+        background-color: rgba(145, 158, 171, 0.493);
+        margin-bottom: 12px;
+        
+        &::before {
+          content: "";
+          position: absolute;
+          width: 190px;
+          height: 2px;
+        //   left: 100%;
+          right: 33px;
+          top: 50%;
+          transform: translateY(-50%);
+          background-color: rgba(145, 158, 171, 0.24);
+        }
+      }
+      &:nth-child(1) .dot::before {
+        width: 0;
+      }
+    }
+    .step.currentStep {
+        color: #010203;
+      .dot {
+        color: #fff;
+        background-color: #00ab55;
+        &::before{
+            background-color: rgb(145, 158, 171);
+        }
+      }
+    }
+  }
